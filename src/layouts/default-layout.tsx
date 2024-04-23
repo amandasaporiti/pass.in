@@ -3,7 +3,7 @@ import { Header } from '../components/header'
 
 export function DefaultLayout() {
   return (
-    <div className="max-w-[1216px] mx-auto py-5 flex flex-col gap-5 px-8">
+    <div className="max-w-[1440px] mx-auto py-4 flex flex-col gap-6 px-7">
       <Header />
       <Outlet />
     </div>
